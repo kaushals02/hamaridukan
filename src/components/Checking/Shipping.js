@@ -26,7 +26,7 @@ export default function Shipping({ email, number }) {
 
   const orderPlaced = () => {
     alert("Your order has been placed! Happy Shopping");
-    window.location.href = "https://humaridukan.netlify.app/";
+    window.location.href = "http://localhost:3000/"/*"https://humaridukan.netlify.app/"*/;
   };
 
   return (
